@@ -22,7 +22,13 @@
       "selecionada": true,
       "estadoDescoberta": "concluida",
       "urlCanonica": null,
-      "erroDescoberta": null
+      "erroDescoberta": null,
+      "versionamento": {
+        "data": "2026-09-12T18:30:50.863Z",
+        "commit": "6dca448aad9fee8d4809b75312882c5a7b108b0a",
+        "repositorio": "ongit123/sites-monitorados-01",
+        "ramo": "capturas"
+      }
     },
     {
       "id": "374f29b6290fdd8151c9",
@@ -50,7 +56,13 @@
       "selecionada": true,
       "estadoDescoberta": "concluida",
       "urlCanonica": null,
-      "erroDescoberta": null
+      "erroDescoberta": null,
+      "versionamento": {
+        "data": "2026-09-12T18:30:50.863Z",
+        "commit": "6dca448aad9fee8d4809b75312882c5a7b108b0a",
+        "repositorio": "ongit123/sites-monitorados-01",
+        "ramo": "capturas"
+      }
     },
     {
       "id": "11ae0ad408478e6d3038",
@@ -110,5 +122,11 @@
       "tipo": "secundaria",
       "texto": "Conhecer o produto"
     }
-  ]
+  ],
+  "monitoramento": {
+    "estado": "enviado",
+    "dataDaAtualizacao": "2026-09-12T18:31:10.364Z",
+    "commit": "6dca448aad9fee8d4809b75312882c5a7b108b0a",
+    "erro": null
+  }
 }

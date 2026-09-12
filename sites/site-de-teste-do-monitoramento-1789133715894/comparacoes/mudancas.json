@@ -1,8 +1,8 @@
 {
   "versao": 1,
-  "dataDaComparacao": "2026-09-12T18:31:01.510Z",
+  "dataDaComparacao": "2026-09-12T18:35:18.540Z",
   "houveMudancasUteis": true,
-  "paginasAlteradas": 2,
+  "paginasAlteradas": 1,
   "paginasDesmarcadas": [],
   "paginasRemarcadas": [],
   "paginasNaoRedescobertas": [],
@@ -15,22 +15,10 @@
       "titulo": "Produto monitorado",
       "url": "https://ongit123.github.io/siteTeste/produto.html",
       "caminho": "sites/site-de-teste-do-monitoramento-1789133715894/paginas/produto-monitorado-163b29b905377b73ae5e/conteudo-semantico.json",
-      "houveMudancaUtil": true,
-      "linhaDeBase": true,
-      "importancia": "informativa",
-      "categorias": [
-        {
-          "categoria": "linha_de_base",
-          "importancia": "informativa",
-          "atual": {
-            "tituloDaAba": "Produto monitorado",
-            "quantidadeDeTitulos": 1,
-            "quantidadeDeParagrafos": 1,
-            "quantidadeDeBotoes": 1,
-            "quantidadeDeLinks": 2
-          }
-        }
-      ]
+      "houveMudancaUtil": false,
+      "linhaDeBase": false,
+      "importancia": "nenhuma",
+      "categorias": []
     },
     {
       "pagina": "site-de-teste-do-monitoramento-6bf99bc19e0722d8448d",
@@ -39,19 +27,24 @@
       "url": "https://ongit123.github.io/siteTeste",
       "caminho": "sites/site-de-teste-do-monitoramento-1789133715894/paginas/site-de-teste-do-monitoramento-6bf99bc19e0722d8448d/conteudo-semantico.json",
       "houveMudancaUtil": true,
-      "linhaDeBase": true,
-      "importancia": "informativa",
+      "linhaDeBase": false,
+      "importancia": "media",
       "categorias": [
         {
-          "categoria": "linha_de_base",
-          "importancia": "informativa",
-          "atual": {
-            "tituloDaAba": "Site de teste do monitoramento",
-            "quantidadeDeTitulos": 2,
-            "quantidadeDeParagrafos": 2,
-            "quantidadeDeBotoes": 1,
-            "quantidadeDeLinks": 3
-          }
+          "categoria": "paragrafos",
+          "importancia": "media",
+          "adicionados": [
+            "Conheça nossos produtos e as novas condições de entrega."
+          ],
+          "removidos": [
+            "Esta página permite testar a descoberta de links e a identificação de alterações relevantes no conteúdo de um site."
+          ]
+        },
+        {
+          "categoria": "texto_visivel",
+          "importancia": "baixa",
+          "anterior": "Site de teste do monitoramento Início Produto Site de teste do monitoramento Esta página permite testar a descoberta de links e a identificação de alterações relevantes no conteúdo de um site. Conhecer o produto Nova coleção de produtos Agora entregamos para todo o Brasil. Comprar agora",
+          "atual": "Site de teste do monitoramento Início Produto Site de teste do monitoramento Conheça nossos produtos e as novas condições de entrega. Conhecer o produto Nova coleção de produtos Agora entregamos para todo o Brasil. Comprar agora"
         }
       ]
     }
