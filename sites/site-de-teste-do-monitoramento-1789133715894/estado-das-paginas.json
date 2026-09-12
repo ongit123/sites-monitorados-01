@@ -1,0 +1,42 @@
+{
+  "versao": 1,
+  "dataDaAtualizacao": "2026-09-12T18:30:50.863Z",
+  "paginas": [
+    {
+      "identificadorDaPagina": "6bf99bc19e0722d8448d",
+      "titulo": "Site de teste do monitoramento",
+      "url": "https://ongit123.github.io/siteTeste",
+      "monitorada": true,
+      "estado": "capturada",
+      "ultimaCapturaConhecida": "2026-09-12T18:30:50.863Z",
+      "erro": null
+    },
+    {
+      "identificadorDaPagina": "374f29b6290fdd8151c9",
+      "titulo": "Início",
+      "url": "https://ongit123.github.io/siteTeste/produto-novo.html",
+      "monitorada": false,
+      "estado": "nao_monitorada",
+      "ultimaCapturaConhecida": null,
+      "erro": null
+    },
+    {
+      "identificadorDaPagina": "163b29b905377b73ae5e",
+      "titulo": "Produto monitorado",
+      "url": "https://ongit123.github.io/siteTeste/produto.html",
+      "monitorada": true,
+      "estado": "capturada",
+      "ultimaCapturaConhecida": "2026-09-12T18:30:50.863Z",
+      "erro": null
+    },
+    {
+      "identificadorDaPagina": "11ae0ad408478e6d3038",
+      "titulo": "Site de teste do monitoramento",
+      "url": "https://ongit123.github.io/siteTeste/index.html",
+      "monitorada": false,
+      "estado": "nao_monitorada",
+      "ultimaCapturaConhecida": null,
+      "erro": null
+    }
+  ]
+}

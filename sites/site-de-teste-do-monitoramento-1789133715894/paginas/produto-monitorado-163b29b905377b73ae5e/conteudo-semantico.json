@@ -1,0 +1,32 @@
+{
+  "versao": 1,
+  "url": "https://ongit123.github.io/siteTeste/produto.html",
+  "tituloDaAba": "Produto monitorado",
+  "titulos": [
+    {
+      "nivel": 1,
+      "texto": "Produto monitorado"
+    }
+  ],
+  "paragrafos": [
+    "Este produto demonstra como títulos, descrições, links e botões são acompanhados ao longo do tempo."
+  ],
+  "botoes": [
+    "Solicitar demonstração"
+  ],
+  "links": [
+    {
+      "texto": "Início",
+      "destino": "https://ongit123.github.io/siteTeste/index.html"
+    },
+    {
+      "texto": "Produto",
+      "destino": "https://ongit123.github.io/siteTeste/produto.html"
+    }
+  ],
+  "formularios": [],
+  "navegacao": [
+    "Início Produto"
+  ],
+  "textoVisivel": "Produto monitorado Início Produto Produto monitorado Este produto demonstra como títulos, descrições, links e botões são acompanhados ao longo do tempo. Solicitar demonstração"
+}

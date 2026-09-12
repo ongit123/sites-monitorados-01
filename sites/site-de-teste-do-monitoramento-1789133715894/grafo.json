@@ -1,0 +1,114 @@
+{
+  "versao": 1,
+  "identificadorDoSite": "1789133715894",
+  "nomeDoSite": "Site de teste do monitoramento",
+  "urlRaiz": "https://ongit123.github.io/siteTeste",
+  "dataDescoberta": "2026-09-12T18:30:48.626Z",
+  "limites": {
+    "quantidadePorNivel": 20,
+    "quantidadeTotal": 100,
+    "niveis": 5
+  },
+  "paginas": [
+    {
+      "id": "6bf99bc19e0722d8448d",
+      "urlOriginal": "https://ongit123.github.io/siteTeste",
+      "urlNormalizada": "https://ongit123.github.io/siteTeste",
+      "dominio": "ongit123.github.io",
+      "tipo": "interna",
+      "nivel": 1,
+      "identificadorDoPaiPrincipal": null,
+      "titulo": "Site de teste do monitoramento",
+      "selecionada": true,
+      "estadoDescoberta": "concluida",
+      "urlCanonica": null,
+      "erroDescoberta": null
+    },
+    {
+      "id": "374f29b6290fdd8151c9",
+      "urlOriginal": "produto-novo.html",
+      "urlNormalizada": "https://ongit123.github.io/siteTeste/produto-novo.html",
+      "dominio": "ongit123.github.io",
+      "tipo": "interna",
+      "nivel": 2,
+      "identificadorDoPaiPrincipal": "6bf99bc19e0722d8448d",
+      "titulo": "Início",
+      "selecionada": false,
+      "estadoDescoberta": "falha",
+      "urlCanonica": null,
+      "erroDescoberta": "A página respondeu com HTTP 404."
+    },
+    {
+      "id": "163b29b905377b73ae5e",
+      "urlOriginal": "produto.html",
+      "urlNormalizada": "https://ongit123.github.io/siteTeste/produto.html",
+      "dominio": "ongit123.github.io",
+      "tipo": "interna",
+      "nivel": 2,
+      "identificadorDoPaiPrincipal": "6bf99bc19e0722d8448d",
+      "titulo": "Produto monitorado",
+      "selecionada": true,
+      "estadoDescoberta": "concluida",
+      "urlCanonica": null,
+      "erroDescoberta": null
+    },
+    {
+      "id": "11ae0ad408478e6d3038",
+      "urlOriginal": "index.html",
+      "urlNormalizada": "https://ongit123.github.io/siteTeste/index.html",
+      "dominio": "ongit123.github.io",
+      "tipo": "interna",
+      "nivel": 3,
+      "identificadorDoPaiPrincipal": "163b29b905377b73ae5e",
+      "titulo": "Site de teste do monitoramento",
+      "selecionada": false,
+      "estadoDescoberta": "concluida",
+      "urlCanonica": null,
+      "erroDescoberta": null
+    }
+  ],
+  "arestas": [
+    {
+      "identificadorDeOrigem": "6bf99bc19e0722d8448d",
+      "identificadorDeDestino": "374f29b6290fdd8151c9",
+      "tipo": "principal",
+      "texto": "Início"
+    },
+    {
+      "identificadorDeOrigem": "6bf99bc19e0722d8448d",
+      "identificadorDeDestino": "163b29b905377b73ae5e",
+      "tipo": "principal",
+      "texto": "Produto"
+    },
+    {
+      "identificadorDeOrigem": "6bf99bc19e0722d8448d",
+      "identificadorDeDestino": "163b29b905377b73ae5e",
+      "tipo": "secundaria",
+      "texto": "Conhecer o produto"
+    },
+    {
+      "identificadorDeOrigem": "163b29b905377b73ae5e",
+      "identificadorDeDestino": "11ae0ad408478e6d3038",
+      "tipo": "principal",
+      "texto": "Início"
+    },
+    {
+      "identificadorDeOrigem": "11ae0ad408478e6d3038",
+      "identificadorDeDestino": "374f29b6290fdd8151c9",
+      "tipo": "secundaria",
+      "texto": "Início"
+    },
+    {
+      "identificadorDeOrigem": "11ae0ad408478e6d3038",
+      "identificadorDeDestino": "163b29b905377b73ae5e",
+      "tipo": "secundaria",
+      "texto": "Produto"
+    },
+    {
+      "identificadorDeOrigem": "11ae0ad408478e6d3038",
+      "identificadorDeDestino": "163b29b905377b73ae5e",
+      "tipo": "secundaria",
+      "texto": "Conhecer o produto"
+    }
+  ]
+}

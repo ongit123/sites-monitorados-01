@@ -1,0 +1,23 @@
+{
+  "versao": 1,
+  "identificadorDaExecucao": "2026-09-12T18-30-50-862Z-1f5d2fd0-3539-40dc-9296-a7b76587f9d7",
+  "identificadorDoSite": "1789133715894",
+  "nomeDoSite": "Site de teste do monitoramento",
+  "dominio": "https://ongit123.github.io/siteTeste/",
+  "dataDaCaptura": "2026-09-12T18:30:50.863Z",
+  "quantidadeSolicitada": 2,
+  "quantidadeCapturada": 2,
+  "falhas": [],
+  "capturas": [
+    {
+      "identificadorDaPagina": "6bf99bc19e0722d8448d",
+      "url": "https://ongit123.github.io/siteTeste",
+      "assinaturaSemantica": "bee97aa9a1e3d9f4a95cac14b606a20143f69b2e07295e93d4156208e98596a9"
+    },
+    {
+      "identificadorDaPagina": "163b29b905377b73ae5e",
+      "url": "https://ongit123.github.io/siteTeste/produto.html",
+      "assinaturaSemantica": "72163c15bce4bb884973cd0fadad72d2d36188973fb9e87f8ff98f1d78e334b1"
+    }
+  ]
+}

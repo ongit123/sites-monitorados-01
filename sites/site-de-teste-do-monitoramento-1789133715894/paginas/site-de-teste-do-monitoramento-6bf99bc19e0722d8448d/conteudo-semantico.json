@@ -1,0 +1,41 @@
+{
+  "versao": 1,
+  "url": "https://ongit123.github.io/siteTeste",
+  "tituloDaAba": "Site de teste do monitoramento",
+  "titulos": [
+    {
+      "nivel": 1,
+      "texto": "Site de teste do monitoramento"
+    },
+    {
+      "nivel": 1,
+      "texto": "Nova coleção de produtos"
+    }
+  ],
+  "paragrafos": [
+    "Esta página permite testar a descoberta de links e a identificação de alterações relevantes no conteúdo de um site.",
+    "Agora entregamos para todo o Brasil."
+  ],
+  "botoes": [
+    "Comprar agora"
+  ],
+  "links": [
+    {
+      "texto": "Início",
+      "destino": "https://ongit123.github.io/produto-novo.html"
+    },
+    {
+      "texto": "Produto",
+      "destino": "https://ongit123.github.io/produto.html"
+    },
+    {
+      "texto": "Conhecer o produto",
+      "destino": "https://ongit123.github.io/produto.html"
+    }
+  ],
+  "formularios": [],
+  "navegacao": [
+    "Início Produto"
+  ],
+  "textoVisivel": "Site de teste do monitoramento Início Produto Site de teste do monitoramento Esta página permite testar a descoberta de links e a identificação de alterações relevantes no conteúdo de um site. Conhecer o produto Nova coleção de produtos Agora entregamos para todo o Brasil. Comprar agora"
+}

@@ -1,0 +1,59 @@
+{
+  "versao": 1,
+  "dataDaComparacao": "2026-09-12T18:31:01.510Z",
+  "houveMudancasUteis": true,
+  "paginasAlteradas": 2,
+  "paginasDesmarcadas": [],
+  "paginasRemarcadas": [],
+  "paginasNaoRedescobertas": [],
+  "falhasDeCaptura": [],
+  "capturasRecuperadas": [],
+  "paginas": [
+    {
+      "pagina": "produto-monitorado-163b29b905377b73ae5e",
+      "identificadorDaPagina": "163b29b905377b73ae5e",
+      "titulo": "Produto monitorado",
+      "url": "https://ongit123.github.io/siteTeste/produto.html",
+      "caminho": "sites/site-de-teste-do-monitoramento-1789133715894/paginas/produto-monitorado-163b29b905377b73ae5e/conteudo-semantico.json",
+      "houveMudancaUtil": true,
+      "linhaDeBase": true,
+      "importancia": "informativa",
+      "categorias": [
+        {
+          "categoria": "linha_de_base",
+          "importancia": "informativa",
+          "atual": {
+            "tituloDaAba": "Produto monitorado",
+            "quantidadeDeTitulos": 1,
+            "quantidadeDeParagrafos": 1,
+            "quantidadeDeBotoes": 1,
+            "quantidadeDeLinks": 2
+          }
+        }
+      ]
+    },
+    {
+      "pagina": "site-de-teste-do-monitoramento-6bf99bc19e0722d8448d",
+      "identificadorDaPagina": "6bf99bc19e0722d8448d",
+      "titulo": "Site de teste do monitoramento",
+      "url": "https://ongit123.github.io/siteTeste",
+      "caminho": "sites/site-de-teste-do-monitoramento-1789133715894/paginas/site-de-teste-do-monitoramento-6bf99bc19e0722d8448d/conteudo-semantico.json",
+      "houveMudancaUtil": true,
+      "linhaDeBase": true,
+      "importancia": "informativa",
+      "categorias": [
+        {
+          "categoria": "linha_de_base",
+          "importancia": "informativa",
+          "atual": {
+            "tituloDaAba": "Site de teste do monitoramento",
+            "quantidadeDeTitulos": 2,
+            "quantidadeDeParagrafos": 2,
+            "quantidadeDeBotoes": 1,
+            "quantidadeDeLinks": 3
+          }
+        }
+      ]
+    }
+  ]
+}
